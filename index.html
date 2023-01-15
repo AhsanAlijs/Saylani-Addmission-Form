@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani/Form.com</title>
+</head>
+<body style="background-color:#e45959;">
+    <nav style="text-align: center;">
+        <img src="./image/download.png"  alt="">
+    </nav>
+    <h1 style="text-align: center;color: rgb(208, 252, 88);text-decoration: underline; font: size 50px; ;">Admission Form</h1>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>Personal Detailes</h1>
+            </legend>
+            First Name :<input type="text" name="Name" placeholder="First Name">Last Name :
+            <input type="text" name="last name" placeholder="Last name"> <br><br>
+            Father Name : <input type="text"name="Father Name" placeholder="Father Name"><br><br>
+            Age : <input type="text" name="Age" placeholder="Age"> CNIC :<input type="text"name="CNIC" placeholder="*****-*******-*"><br><br>
+            Phone Number : <input type="text"name="Phone Number"placeholder="+92312-1111111"> Email : <input type="text"name="Email"id="Email"placeholder="Exp@gmail.com" required>
+            <br><br> Gender : Male
+            <input type="radio" name="Gender" id="Male" checked> : Female <input type="radio" name="Gender" id="Female">
+            :
+            Others
+            <input type="radio" name="Gender" id="Others">
+            Religion : <select name="Religion" id="Religion">
+                <option name="Religion" value="Islam">Islam</option>
+                <option name="Religion" value="Hindu">Hindu</option>
+                <option name="Religion" value="Christan">Christan</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <H1>Education</H1>
+            </legend>
+            School Name : <input type="text"name="School Name"id="School"> College Name :<input type="text"name="College Name"id="College">
+            <br><br>
+            Passing Date : <input type="date"name="date"id="Date">
+            Degree : <select name="degree" id="degre">
+                <option value="None">None</option>
+                <option value="MAtriculation">MAtriculation</option>
+                <option value="Inter Mediat">Inter Mediat</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h1>Course</h1>
+            </legend>
+            Which course do you want <br>
+            <ul style="text-decoration: none;">
+                <li>Web And App <input type="Checkbox" name="Course" id="Web And App"></li>
+                <li>Graphics Designing <input type="Checkbox" name="Course"id="Graphics Designing"></li>
+                <li>AI And DS <input type="Checkbox" name="Course" id="AI And DS"></li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h1>More Details :-</h1>
+            </legend>
+            <dl>
+                <dt>Input Your Picture Here : <input type="file" name="pic" id="pic"></dt>
+                <dd><button type="submit">Submit</button></dd>
+            </dl>
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
